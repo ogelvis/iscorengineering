@@ -27,18 +27,28 @@
     <!-- Owl Carousel CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 51, 102, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+</style>
 
 </head>
 <!-- Navbar Start -->
 <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-white py-2 px-lg-5">
-    <a href="index.html" class="navbar-brand d-flex align-items-center">
-        <img src="img/logo.png" alt="ISCOR Logo" style="height: 40px;" class="mr-2">
-       <span class="font-weight-bold d-none d-md-inline" style="letter-spacing: 1px; color: #003366;">Iscor Engineering</span>
+   <a href="index.html" class="navbar-brand d-flex align-items-center">
+    <img src="img/logo.png" alt="ISCOR Logo" style="height: 40px;" class="mr-2">
+    <span class="font-weight-bold d-none d-md-inline" style="letter-spacing: 1px; color: #003366;">Iscor Engineering</span>
+</a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<!-- Place the button OUTSIDE the <a> -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
 
     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         <div class="navbar-nav ml-auto py-0">
@@ -546,6 +556,15 @@
         });
       });
     </script>
+
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>
